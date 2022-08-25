@@ -1,3 +1,5 @@
 h1 {
-  background-img: url();
+  background-img: url("https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif");
+  text-align: center;
+  font-size: 48px;
 }
