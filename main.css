@@ -1,5 +1,14 @@
 h1 {
-  background-img: url("https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif");
+  font-family: "Merriweather";
   text-align: center;
   font-size: 48px;
+  font-weight: bold;
+  border: solid black 5px;
+}
+
+h2 {
+  font-family: "Abril Fatface";
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
 }
