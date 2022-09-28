@@ -15,4 +15,6 @@ h2 {
 
 img {
   border-radius: 360%;
+  height: 50%;
+  width: 50%;
 }
