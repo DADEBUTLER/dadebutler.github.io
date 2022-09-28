@@ -19,3 +19,9 @@ img {
   width: 50px;
   text-align: center;
 }
+
+p {
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 14px;
+}
