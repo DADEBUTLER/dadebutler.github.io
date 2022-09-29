@@ -33,14 +33,16 @@ p {
 }
 
 .left {
-  grid-column: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
   text-align: center;
   color: blue;
   font-family: "Work Sans", "Abril Fatface";
 }
 
 .right {
-  grid-column: 2;
+  grid-column-start: 2;
+  grid-column-end: 2;
   text-align: center;
   color: red;
   font-family: "Work Sans", "Abril Fatface";
