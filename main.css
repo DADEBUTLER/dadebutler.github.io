@@ -33,11 +33,13 @@ p {
 }
 
 .left {
-width:33.33333%;
-text-align:left;
+  width:50%;
+  text-align:left;
+  font-size: 12px;
 }
 
 .right {
-width:33.33333%;
-text-align:right;
+  width:50%;
+  text-align:right;
+  font-size: 12px;
 }
