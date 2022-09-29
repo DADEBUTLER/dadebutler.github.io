@@ -27,19 +27,27 @@ p {
   font-size: 14px;
 }
 
-.container {
-  display:flex; 
-  flex-flow:row wrap;
-}
+.container { 
+  width: 450px; 
+  height: 1000px; 
+  display: grid; 
+  grid-template-areas: "left right";
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 150px 150px;
+  justify-content: center;
+  margin: auto; 
+  }
 
 .left {
   width:50%;
   text-align:left;
   font-size: 12px;
+  grid-area: "left";
 }
 
 .right {
   width:50%;
   text-align:right;
   font-size: 12px;
+  grid-area: "right";
 }
