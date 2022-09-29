@@ -25,3 +25,23 @@ p {
   font-family: "Work Sans";
   font-size: 14px;
 }
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(2, 100px);
+  grid-template-columns: repeat(2, 100px);
+}
+
+.left {
+  grid-column: 1;
+  text-align: center;
+  color: blue;
+  font-family: "Work Sans", "Abril Fatface";
+}
+
+.right {
+  grid-column: 2;
+  text-align: center;
+  color: red;
+  font-family: "Work Sans", "Abril Fatface";
+}
