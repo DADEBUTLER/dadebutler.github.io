@@ -28,23 +28,16 @@ p {
 }
 
 .container {
-  display: inline-block;
+  display:flex; 
+  flex-flow:row wrap;
 }
 
 .left {
-  grid-area: left;
-  text-align: center;
-  color: blue;
-  font-family: "Work Sans", "Abril Fatface";
-  font-size: 18px;
-  display: inline-block;
+width:33.33333%;
+text-align:left;
 }
 
 .right {
-  grid-area: right;
-  text-align: center;
-  color: red;
-  font-family: "Work Sans", "Abril Fatface";
-  font-size: 18px;
-  display: inline-block;
+width:33.33333%;
+text-align:right;
 }
