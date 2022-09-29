@@ -28,9 +28,7 @@ p {
 }
 
 .container {
-  display: grid;
-  grid-template-rows: repeat(4, 75px);
-  grid-template-columns: repeat(4, 75px);
+  display: inline-block;
 }
 
 .left {
@@ -39,7 +37,7 @@ p {
   color: blue;
   font-family: "Work Sans", "Abril Fatface";
   font-size: 18px;
-  grid-area: 1/1/2/2;
+  display: inline-block;
 }
 
 .right {
@@ -48,5 +46,5 @@ p {
   color: red;
   font-family: "Work Sans", "Abril Fatface";
   font-size: 18px;
-  grid-area: 3/3/4/4;
+  display: inline-block;
 }
