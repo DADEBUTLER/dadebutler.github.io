@@ -29,8 +29,8 @@ p {
 
 .container {
   display: grid;
-  grid-template-areas: "left left"
-                       "right right";
+  grid-template-areas: "left right"
+                       "left right";
   grid-template-rows: repeat(2, 100px);
   grid-template-columns: repeat(2, 100px);
 }
