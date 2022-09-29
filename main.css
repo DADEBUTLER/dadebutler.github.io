@@ -38,6 +38,7 @@ p {
   text-align: center;
   color: blue;
   font-family: "Work Sans", "Abril Fatface";
+  float: left;
 }
 
 .right {
@@ -46,4 +47,5 @@ p {
   text-align: center;
   color: red;
   font-family: "Work Sans", "Abril Fatface";
+  float: right;
 }
