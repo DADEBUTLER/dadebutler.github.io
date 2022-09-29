@@ -28,13 +28,14 @@ p {
 
 .container {
   display: grid;
+  grid-area: <left> | <1> / <1> / <2> / <2>;
+  grid-area: <right> | <2> / <2> / <2> / <2>;
   grid-template-rows: repeat(2, 100px);
   grid-template-columns: repeat(2, 100px);
 }
 
 .left {
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-area: left;
   text-align: center;
   color: blue;
   font-family: "Work Sans", "Abril Fatface";
@@ -43,8 +44,7 @@ p {
 }
 
 .right {
-  grid-column-start: 2;
-  grid-column-end: 2;
+  grid-area: right;
   text-align: center;
   color: red;
   font-family: "Work Sans", "Abril Fatface";
