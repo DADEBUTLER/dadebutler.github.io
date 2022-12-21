@@ -23,7 +23,7 @@ img {
 p {
   text-align: center;
   font-family: "Work Sans";
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .container { 
@@ -31,8 +31,8 @@ p {
   height: 1000px; 
   display: grid; 
   grid-template-areas: "left right";
-  grid-template-rows: 300px;
-  grid-template-columns: 300px 300px;
+  grid-template-rows: 100px;
+  grid-template-columns: 600px 600px;
   justify-content: center;
   margin: auto; 
   }
@@ -40,20 +40,18 @@ p {
 h3.left {
   text-align:center;
   font-size: 24px;
-  background-color: #000000;
-  color: #ffffff;
 }
 
 .left {
   width:50%;
   text-align:center;
-  font-size: 18px;
+  font-size: 16px;
   grid-area: "left";
 }
 
 .right {
   width:50%;
   text-align:center;
-  font-size: 18px;
+  font-size: 16px;
   grid-area: "right";
 }
