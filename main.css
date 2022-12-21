@@ -5,8 +5,7 @@ h1 {
   font-weight: bold;
   border: solid black 5px;
 }
-
-h2 {
+.header2 {
   font-family: "Abril Fatface";
   text-align: center;
   font-size: 24px;
@@ -32,8 +31,8 @@ p {
   height: 1000px; 
   display: grid; 
   grid-template-areas: "left right";
-  grid-template-rows: 150px;
-  grid-template-columns: 150px 150px;
+  grid-template-rows: 300px;
+  grid-template-columns: 300px 300px;
   justify-content: center;
   margin: auto; 
   }
@@ -48,13 +47,13 @@ h3.left {
 .left {
   width:50%;
   text-align:center;
-  font-size: 12px;
+  font-size: 18px;
   grid-area: "left";
 }
 
 .right {
   width:50%;
   text-align:center;
-  font-size: 12px;
+  font-size: 18px;
   grid-area: "right";
 }
