@@ -29,7 +29,8 @@ p {
 .container { 
   width: 500px; 
   display: inline-block;
-  margin: auto; 
+  justify-content: center;
+  align-content: center;
   }
 
 h3.left {
