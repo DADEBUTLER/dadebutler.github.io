@@ -28,7 +28,7 @@ p {
 
 .container { 
   display:grid;
-  grid-auto-column: repeat(2, 100px);
+  grid-auto-column: repeat(2, 250px);
   grid-auto-rows: repeat(3, 100px);
   grid-template-areas:
     "left right"
