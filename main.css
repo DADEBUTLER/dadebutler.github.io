@@ -28,12 +28,12 @@ p {
 
 .container { 
   display:grid;
-  grid-auto-column: repeat(2, 100px);
+  grid-auto-column: repeat(3, 100px);
   grid-auto-rows: repeat(3, 100px);
   grid-template-areas:
-    "left right"
-    "left right"
-    "left right";
+    "left left right"
+    "left left right"
+    "left left right";
   }
 
 h3.left {
