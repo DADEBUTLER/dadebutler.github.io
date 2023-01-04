@@ -50,6 +50,7 @@ h3.left {
   text-align: left;
   font-family: "Work Sans";
   grid-area: left;
+  left: 30px;
   
 }
 
@@ -59,4 +60,5 @@ h3.left {
   text-align: center;
   font-family: "Work Sans";
   grid-area: right;
+  right: 10px;
 }
