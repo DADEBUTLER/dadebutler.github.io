@@ -28,36 +28,37 @@ p {
 
 .container { 
   display:grid;
-  grid-auto-column: repeat(3, 100px);
+  grid-template-columns: 3fr 300px;
   grid-auto-rows: repeat(3, 100px);
   grid-template-areas:
-    "left left right"
-    "left left right"
-    "left left right";
+    "left right"
+    "left right"
+    "left right";
   }
 
 h3.left {
-  text-align:center;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: bold;
   font-family: "Merriweather";
 }
 
 .left {
-  width: 66%;
-  padding: 10px 10px 10px 20px;
-  font-size: 18px;
+  padding: 20px;
+  font-size: 16px;
   text-align: left;
   font-family: "Work Sans";
   grid-area: left;
-  left: 30px;
-  
+}
+
+#ingredients-title {
+  text-align: center;
+  font-size: 20px;
 }
 
 .right {
-  padding: 10px 3px 10px 3px;
+  padding: 10px;
   font-size: 12px;
-  text-align: center;
+  text-align: left;
   font-family: "Work Sans";
   grid-area: right;
   right: 10px;
