@@ -91,10 +91,10 @@ h3.left {
 
 .right {
   padding: 10px;
-  font-size: 16px;
+  font-size: 13px;
   text-align: left;
-  letter-spacing: 2px;
-  font-weight: bold;
+  letter-spacing: 3px;
+  font-weight: bolder;
   color: #FFB544;
   font-family: "Work Sans";
   grid-area: right;
