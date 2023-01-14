@@ -92,7 +92,21 @@ h3.left {
   right: 10px;
 }
 
+/*The Actual Recipes CSS */
+
+.recipe-container {
+  padding: 20px;
+  font-size: 16px;
+  text-align: left;
+  font-family: "Work Sans";
+  grid-area: left;
+  border: solid #FF9B00 15px;
+  background-color: #FFE0B0;
+  color: #FFA823;
+}
+
 /*Tips CSS*/
+
 h4 {
   padding: 15px;
   font-size: 35px;
