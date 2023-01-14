@@ -1,7 +1,7 @@
 /*Header Tag CSS*/
 
 h1 {
-  font-family: "Rowdies";
+  font-family: "Merriweather";
   text-align: center;
   font-size: 50px;
   font-style: italic;
@@ -12,7 +12,7 @@ h1 {
 }
 
 .header2 {
-  font-family: "Abril Fatface";
+  font-family: "Merriweather";
   text-align: center;
   font-size: 24px;
   font-weight: normal;
