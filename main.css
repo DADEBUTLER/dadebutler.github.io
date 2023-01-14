@@ -5,7 +5,7 @@ h1 {
   text-align: center;
   font-size: 50px;
   font-style: italic;
-  font-weight: 320;
+  font-weight: bolder;
   border: solid #FF9B00 15px;
   background-color: #FFE0B0;
   color: #FFA823;
@@ -14,8 +14,8 @@ h1 {
 .header2 {
   font-family: "Merriweather";
   text-align: center;
-  font-size: 24px;
-  font-weight: normal;
+  font-size: 32px;
+  font-weight: bold;
   color: #FFB544;
 }
 
@@ -41,7 +41,7 @@ img {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   color: #FFB544;
   font-family: "Work Sans";
