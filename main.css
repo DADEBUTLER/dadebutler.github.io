@@ -59,6 +59,7 @@ p {
     "left right";
   margin: 40px;
   padding: 30px;
+  background-color: #FF9B00;
   }
 
 h3.left {
@@ -71,25 +72,29 @@ h3.left {
   padding: 20px;
   font-size: 16px;
   text-align: left;
-  color: #FFB544;
+  color: #FFA933;
   font-family: "Work Sans";
   grid-area: left;
+  background-color: #ffff;
 }
 
 #ingredients-title {
   font-size: 20px;
   text-align: center;
   padding-top: 50px;
+  color:#8C8A88;
 }
 
 .right {
   padding: 10px;
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
+  font-weight: bold;
   color: #FFB544;
   font-family: "Work Sans";
   grid-area: right;
   right: 10px;
+  color:#8C8A88;
 }
 
 /*The Actual Recipes CSS */
