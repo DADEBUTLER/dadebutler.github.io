@@ -91,6 +91,7 @@ h3.left {
   padding: 10px;
   font-size: 16px;
   text-align: left;
+  letter-spacing: 2px;
   font-weight: bold;
   color: #FFB544;
   font-family: "Work Sans";
@@ -103,13 +104,15 @@ h3.left {
 
 .recipe-container {
   padding: 20px;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 30px;
   text-align: left;
+  font-weight: 500;
   font-family: "Work Sans";
   grid-area: left;
   border: solid #FF9B00 15px;
-  background-color: #FFE0B0;
-  color: #FFA823;
+  background-color: #FF9B00;
+  color: #8C8A88;
 }
 
 /*Tips CSS*/
