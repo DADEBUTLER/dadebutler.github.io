@@ -17,12 +17,12 @@ h1 {
   font-size: 32px;
   font-weight: bold;
   color: #FFB544;
+  margin: auto;
 }
 
-/* Teehee forgot to add padding around ALL the text */
+/* This is the container for all of the header content. All of like 2 sentences :) */
 .containerno2{
   margin: 40px;
-  padding: 20px;
 }
 
 /*Body Tag CSS*/
@@ -43,6 +43,8 @@ img {
 p {
   font-size: 18px;
   text-align: center;
+  padding: 10px;
+  margin: auto;
   color: #FFB544;
   font-family: "Work Sans";
 }
