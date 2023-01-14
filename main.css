@@ -128,9 +128,15 @@ h4 {
 .CSSTips{
   margin: auto;
   padding: 40px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  background-color: #fff;
 }
 
 .tip-jar{
   margin: auto;
   padding: 40px;
+  line-height: 30px;
+  font-weight: 500;
 }
