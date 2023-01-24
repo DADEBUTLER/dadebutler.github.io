@@ -146,3 +146,10 @@ h4 {
   border-right: solid #FF9B00 10px;
   border-left: solid #FF9B00 10px;
 }
+
+/* The Box CSS */
+
+.thebox-img{
+  width: 75px;
+  height: 75px;
+}
