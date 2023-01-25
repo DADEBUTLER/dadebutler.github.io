@@ -157,6 +157,11 @@ h4 {
   justify-content: center;
 }
 
+figcaption {
+  text-align: center;
+  font-family: "Work Sans";
+}
+
 .thebox-img{
   width: 200px;
   height: 200px;
