@@ -150,7 +150,6 @@ h4 {
 /* The Box CSS */
 
 .thebox {
-  display: block;
   margin: auto;
   align-content: center;
   align-items: center;
@@ -160,6 +159,9 @@ h4 {
 figcaption {
   text-align: center;
   font-family: "Work Sans";
+  background-color: black;
+  color: white;
+  font-style: italic;
 }
 
 .thebox-img{
