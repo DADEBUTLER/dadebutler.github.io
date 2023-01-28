@@ -32,7 +32,9 @@ body {
   background-color: #8C8A88;
 }
 
-img {
+/* Ice Cream Gif CSS */
+
+.icescream {
   border-radius: 360%;
   height: 250px;
   width: 250px;
@@ -165,7 +167,7 @@ figcaption {
 }
 
 .thebox-img{
-  width: 200px;
-  height: 200px;
+  width: 70%;
+  height: 70%;
   margin: auto;
 }
