@@ -168,11 +168,18 @@ figcaption {
   position: relative;
 }
 
-.thebox-img{
+.thebox-img {
   width: 65%;
   height: 65%;
   margin: auto;
   text-align: center;
   position: relative;
   left: 242px;
+}
+
+.thebox-txt{
+  padding: 40px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
 }
