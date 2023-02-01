@@ -189,10 +189,21 @@ figcaption {
 }
 
 /* Border Box CSS */
-.theborderbox{
+.theborderbox {
   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
 }
 
-.borderbox-txt{
-  box-sizing: content-box;
+.borderbox-txt {
+  text-align: center;
+  padding: 40px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  background-color:#FF9B00;
+  color: white;
+  border: 5px dashed black;
+  width: 350px;
+  height: 200px;
 }
