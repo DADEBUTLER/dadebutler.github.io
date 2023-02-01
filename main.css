@@ -187,3 +187,12 @@ figcaption {
 .thebox-bottomtxt {
   text-align: left;
 }
+
+/* Border Box CSS */
+.theborderbox{
+  box-sizing: border-box;
+}
+
+.borderbox-txt{
+  box-sizing: content-box;
+}
